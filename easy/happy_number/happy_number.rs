@@ -14,7 +14,7 @@ fn is_happy(n: i32) -> bool {
     if n == 1 || n == 7 { return true; }
     let mut memory: HashSet<u32> = HashSet::new();
     let mut sum: u32 = sum_square_digits(n);
-    while sum != 1 && sum != 7 {
+    while sum != 1 {
         if memory.contains(&sum) {
             return false;
         } else {
