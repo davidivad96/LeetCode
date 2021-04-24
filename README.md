@@ -12,3 +12,4 @@ Solutions to LeetCode problems
 |5|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Rust](./medium/shortest_unsorted_continuous_subarray/shortest_unsorted_continuous_subarray.rs)|Medium|
 |6|[Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Rust](./easy/distribute_candies/distribute_candies.rs)|Easy|
 |7|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Rust](./easy/number_of_steps_to_reduce_a_number_to_zero/number_of_steps_to_reduce_a_number_to_zero.rs)|Easy|
+|8|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Rust](./medium/container_with_most_water/container_with_most_water.rs)|Medium|
