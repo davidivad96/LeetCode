@@ -5,8 +5,11 @@ fn broken_calc(x: i32, y: i32) -> i32 {
     let x_copy: i32 = x;
     let mut y_copy: i32 = y;
     while x_copy < y_copy {
-        if y_copy % 2 == 0 { y_copy /= 2; }
-        else { y_copy += 1; }
+        if y_copy % 2 == 0 {
+            y_copy /= 2;
+        } else {
+            y_copy += 1;
+        }
         sum += 1;
     }
     sum + x_copy - y_copy

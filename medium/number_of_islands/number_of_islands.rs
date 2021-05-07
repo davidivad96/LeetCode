@@ -37,10 +37,26 @@ fn mark_island_as_visited(
                     && !result[cell.x][cell.y]
                 {
                     result[cell.x][cell.y] = true;
-                    children.push_back(Cell { x: cell.x + 1, y: cell.y });
-                    children.push_back(Cell { x: cell.x, y: cell.y + 1 });
-                    if cell.x > 0 { children.push_back(Cell { x: cell.x - 1, y: cell.y + 1, }); }
-                    if cell.y > 0 { children.push_back(Cell { x: cell.x, y: cell.y - 1, }); }
+                    children.push_back(Cell {
+                        x: cell.x + 1,
+                        y: cell.y,
+                    });
+                    children.push_back(Cell {
+                        x: cell.x,
+                        y: cell.y + 1,
+                    });
+                    if cell.x > 0 {
+                        children.push_back(Cell {
+                            x: cell.x - 1,
+                            y: cell.y + 1,
+                        });
+                    }
+                    if cell.y > 0 {
+                        children.push_back(Cell {
+                            x: cell.x,
+                            y: cell.y - 1,
+                        });
+                    }
                 }
             }
             None => println!("An error occurred"),

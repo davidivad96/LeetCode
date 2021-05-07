@@ -4,9 +4,15 @@ fn find_unsorted_subarray(nums: Vec<i32>) -> i32 {
     nums_copy.sort();
     let mut i: usize = 0;
     let mut j: usize = n - 1;
-    while nums[i] == nums_copy[i] && i < n - 1 { i += 1; }
-    while nums[j] == nums_copy[j] && j > 1 { j -= 1; }
-    if i == n - 1 || j == 0 { return 0; }
+    while nums[i] == nums_copy[i] && i < n - 1 {
+        i += 1;
+    }
+    while nums[j] == nums_copy[j] && j > 1 {
+        j -= 1;
+    }
+    if i == n - 1 || j == 0 {
+        return 0;
+    }
     (j - i) as i32 + 1
 }
 
