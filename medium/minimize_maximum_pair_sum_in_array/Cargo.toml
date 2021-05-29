@@ -1,0 +1,13 @@
+[package]
+name = "minimize-maximum-pair-sum-in-array"
+version = "0.1.0"
+authors = ["davidivad96 <davidivad96@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "minimize_maximum_pair_sum_in_array"
+path = "minimize_maximum_pair_sum_in_array.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
