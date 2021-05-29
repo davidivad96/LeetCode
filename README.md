@@ -15,3 +15,4 @@ Solutions to LeetCode problems
 |8|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Rust](./medium/container_with_most_water/container_with_most_water.rs)|Medium|
 |9|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Rust](./easy/running_sum_of_1d_array/running_sum_of_1d_array.rs)|Easy|
 |10|[Triangle](https://leetcode.com/problems/triangle/) | [Rust](./medium/triangle/triangle.rs)|Medium|
+|11|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | [Rust](./medium/minimize_maximum_pair_sum_in_array/minimize_maximum_pair_sum_in_array.rs)|Medium|
