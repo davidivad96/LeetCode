@@ -11,5 +11,6 @@
     "medium/number_of_islands/Cargo.toml",
     "medium/shortest_unsorted_continuous_subarray/Cargo.toml",
     "medium/triangle/Cargo.toml",
+    "hard/find_median_from_data_stream/Cargo.toml"
   ]
 }
