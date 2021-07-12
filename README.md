@@ -16,3 +16,4 @@ Solutions to LeetCode problems
 |9|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Rust](./easy/running_sum_of_1d_array/running_sum_of_1d_array.rs)|Easy|
 |10|[Triangle](https://leetcode.com/problems/triangle/) | [Rust](./medium/triangle/triangle.rs)|Medium|
 |11|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | [Rust](./medium/minimize_maximum_pair_sum_in_array/minimize_maximum_pair_sum_in_array.rs)|Medium|
+|12|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Rust](./hard/find_median_from_data_stream/find_median_from_data_stream.rs)|Hard|
