@@ -1,0 +1,12 @@
+[package]
+name = "sliding_window_median"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "sliding_window_median"
+path = "sliding_window_median.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
