@@ -1,0 +1,12 @@
+[package]
+name = "count_common_words_with_one_occurrence"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "count_common_words_with_one_occurrence"
+path = "count_common_words_with_one_occurrence.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
