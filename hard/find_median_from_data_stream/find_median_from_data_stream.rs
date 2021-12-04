@@ -1,20 +1,18 @@
 struct MedianFinder {
-    nums: Vec<i32>
+    nums: Vec<i32>,
 }
 
 impl MedianFinder {
     fn new() -> Self {
-        Self {
-            nums: vec![]
-        }
+        Self { nums: vec![] }
     }
-    
+
     fn add_num(&mut self, num: i32) {
         let pos = self.nums.binary_search(&num).unwrap_or_else(|e| e);
         self.nums.insert(pos, num);
         self.nums.sort();
     }
-    
+
     fn find_median(&self) -> f64 {
         if self.nums.len() % 2 == 0 {
             let middle_num_1 = self.nums[self.nums.len() / 2] as f64;

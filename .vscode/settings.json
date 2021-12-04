@@ -16,6 +16,7 @@
     "medium/shuffle_an_array/Cargo.toml",
     "medium/single_element_in_a_sorted_array/Cargo.toml",
     "hard/find_median_from_data_stream/Cargo.toml",
-    "hard/sliding_window_median/Cargo.toml"
+    "hard/sliding_window_median/Cargo.toml",
+    "hard/stream_of_characters/Cargo.toml"
   ]
 }
