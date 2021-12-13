@@ -7,6 +7,7 @@
     "easy/palindrome_number/Cargo.toml",
     "easy/running_sum_of_1d_array/Cargo.toml",
     "easy/count_common_words_with_one_occurrence/Cargo.toml",
+    "easy/consecutive_characters/Cargo.toml",
     "medium/broken_calculator/Cargo.toml",
     "medium/container_with_most_water/Cargo.toml",
     "medium/minimize_maximum_pair_sum_in_array/Cargo.toml",
