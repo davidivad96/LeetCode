@@ -1,0 +1,12 @@
+[package]
+name = "add_binary"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "add_binary"
+path = "add_binary.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
