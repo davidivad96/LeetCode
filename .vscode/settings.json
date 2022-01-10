@@ -9,6 +9,7 @@
     "easy/count_common_words_with_one_occurrence/Cargo.toml",
     "easy/consecutive_characters/Cargo.toml",
     "easy/complement_of_base_10_integer/Cargo.toml",
+    "easy/add_binary/Cargo.toml",
     "medium/broken_calculator/Cargo.toml",
     "medium/container_with_most_water/Cargo.toml",
     "medium/minimize_maximum_pair_sum_in_array/Cargo.toml",
